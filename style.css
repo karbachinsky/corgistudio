@@ -1,0 +1,36 @@
+/* Shared look for the two public pages. Warm and plain: a parent checking what
+   a kids' game does with their child's data should be able to read it in under
+   a minute, on a phone, without pinching. */
+:root {
+  --cream: #FDF4E4;
+  --ink: #432813;
+  --muted: #7A6249;
+  --rule: #E6D6BC;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 48px 20px 96px;
+  background: var(--cream);
+  color: var(--ink);
+  font: 17px/1.65 ui-rounded, "SF Pro Rounded", "Avenir Next", Avenir, system-ui, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+h2 { font-size: 20px; margin: 36px 0 10px; }
+.sub { color: var(--muted); margin: 0 0 32px; }
+.lede {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin: 0 0 28px;
+  font-weight: 600;
+}
+ul { padding-inline-start: 22px; }
+li { margin: 6px 0; }
+a { color: #A9703F; }
+footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+nav { margin-bottom: 28px; font-size: 15px; }
+nav a { margin-inline-end: 14px; }
+[dir="rtl"] nav a { margin-inline-end: 0; margin-inline-start: 14px; }
