@@ -4,7 +4,7 @@ Public pages for the studio's games: the privacy policy and support page each
 app needs a live link to.
 
 ```
-feed-the-corgi/    Feed the Corgi (iOS) — privacy + support, en / ru / he
+feed-the-corgi/    Feed the Corgi (iOS) — privacy + support, en / ru / es / fr / he
 ```
 
 Plain static HTML, no scripts, no analytics, no cookies — which is also what the
